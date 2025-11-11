@@ -1,0 +1,26 @@
+.navbar {
+    text-align: center;
+}
+
+.li {
+    list-style: none;
+    display: inline;
+}
+
+
+body {
+    background-color: darkgrey;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.form-1 {
+    text-align: center;
+}
+
+h2,
+form {
+    color: rgb(250, 249, 248);
+}
