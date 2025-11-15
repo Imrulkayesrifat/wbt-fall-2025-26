@@ -1,26 +1,49 @@
-.navbar {
-    text-align: center;
-}
-
-.li {
-    list-style: none;
-    display: inline;
-}
-
-
 body {
     background-color: darkgrey;
 }
 
+.navbar {
+    text-align: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
 .h2 {
     text-align: center;
+    color: white;
 }
 
-.form-1 {
-    text-align: center;
+/* Container Box */
+.container {
+    width: 40%;
+    border: 2px solid white;
+    margin: auto;
+    padding: 25px;
+    color: white;
 }
 
-h2,
-form {
-    color: rgb(250, 249, 248);
+/* Label alignment */
+.change {
+    display: inline-block;
+    width: 180px;
+    font-size: 16px;
+}
+
+/* All input/select boxes same line + width */
+.box,
+select,
+input[type="date"] {
+    width: 300px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Radio alignment */
+input[type="radio"] {
+    margin-right: 10px;
 }

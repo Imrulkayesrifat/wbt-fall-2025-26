@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <nav class="navbar">
         <ul>
             <li><a href="./Education.html">Education</a></li>
@@ -17,36 +18,55 @@
             <li><a href="./Contact me.html">Contact me</a></li>
         </ul>
     </nav>
+
     <h2 class="h2">Contact Me</h2>
-    <form class="form-1" method="get">
-        First name: <input type="text" name="name" required><br><br>
-        Last Name: <input type="text" name="name" required><br><br>
-        Email: <input type="email" name="email" required> <br><br>
-        Company: <input type="text" name="company"> <br><br>
-        Reason For Contact: <br><br>
-        <input type="radio" name="reason">Project
-        <select name="select">
-            <option>Data base </option>
-            <option>Portfolio Website</option>
-            <option>Library Management System</option>
-        </select> <br><br>
 
-        <input type="radio" name="reason">Thesis
-        <select name="select">
-            <option>Traffic Flow Optimization </option>
-            <option>Online Learning System</option>
-            <option>Cloud Security Framework/option>
-        </select> <br><br>
+    <div class="container">
+        <form class="form-1" method="get">
 
-        <input type="radio" name="reason">Job <br><br>
-        Book an Appointment: <input type="Date"> <br><br>
-        <input type="submit" name="submit" value="Submit">
-        <input type="reset" name="reset" value="Reset">
+            <label class="change">First name:</label>
+            <input class="box" type="text" name="first" required><br><br>
 
+            <label class="change">Last Name:</label>
+            <input class="box" type="text" name="last" required><br><br>
 
+            <label class="change">Email:</label>
+            <input class="box" type="email" name="email" required><br><br>
 
+            <label class="change">Company:</label>
+            <input class="box" type="text" name="company"><br><br>
 
-    </form>
+            <label class="change">Reason For Contact:</label><br><br>
+
+            <label class="change">Project</label>
+            <input type="radio" name="reason">
+            <select class="box">
+                <option>Database</option>
+                <option>Portfolio Website</option>
+                <option>Library Management System</option>
+            </select><br><br>
+
+            <label class="change">Thesis</label>
+            <input type="radio" name="reason">
+            <select class="box">
+                <option>Traffic Flow Optimization</option>
+                <option>Online Learning System</option>
+                <option>Cloud Security Framework</option>
+            </select><br><br>
+
+            <label class="change">Job</label>
+            <input type="radio" name="reason"><br><br>
+
+            <label class="change">Book an appointment:</label>
+            <input class="box" type="date"><br><br>
+
+            <label class="change"></label>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+    </div>
+
 </body>
 
 </html>
