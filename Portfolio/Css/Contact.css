@@ -17,7 +17,6 @@ body {
     color: white;
 }
 
-/* Container Box */
 .container {
     width: 40%;
     border: 2px solid white;
@@ -26,14 +25,14 @@ body {
     color: white;
 }
 
-/* Label alignment */
+
 .change {
     display: inline-block;
     width: 180px;
     font-size: 16px;
 }
 
-/* All input/select boxes same line + width */
+
 .box,
 select,
 input[type="date"] {
@@ -43,7 +42,7 @@ input[type="date"] {
     border: 1px solid #ccc;
 }
 
-/* Radio alignment */
+
 input[type="radio"] {
     margin-right: 10px;
 }
